@@ -26,10 +26,12 @@
     text-align: left;
 }
 .text-2 {
-    max-width: 600px;
-    margin: 0 auto;
-    line-height: 24px;
+    max-width: 478px;
+    /* margin: 0 auto; */
+    line-height: 38.4px;
     font-size: 32px;
+    font-weight: 600;
+    font-family: Tomato Grotesk;
     margin-bottom: 15px;
     text-align: left;
 }
@@ -40,8 +42,8 @@
     font-size: 16px;
     font-family: DN Sans;
     font-weight: 500px;
-    /* margin-bottom: 30px; */
     text-align: left;
+    border: 3px solid red;
 }
 
 .app-btn2 {
