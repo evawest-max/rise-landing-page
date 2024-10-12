@@ -83,7 +83,6 @@
 
 .herosection1-image img {
   max-width: 194px;
-  /* max-width: 100%; */
   border-radius: 20px;
 }
 
@@ -101,56 +100,80 @@
 /* // new */
 
 
-/* Styles for circles in the background */
 .circle {
   position: absolute;
   border-radius: 50%;
-  background-color: #a0dde2;
-  opacity: 0.6;
+  opacity: 0.8;
+  animation: moveCircle 15s infinite ease-in-out;
   z-index: 1;
-
+  box-shadow: 0 0 10px rgba(0, 163, 228, 0.6), 0 0 20px rgba(0, 163, 228, 0.4);
 }
 
-/* Circle 1 */
 .circle1 {
-  width: 32px;
-  height: 32px;
-  top: 20px;
-  left: 10%;
-}
-
-/* Circle 2 */
-.circle2 {
-  width: 50px;
-  height: 50px;
-  bottom: 50px;
-  right: 20%;
-}
-
-/* Circle 3 */
-.circle3 {
-  width: 32px;
-  height: 32px;
-  top: 60%;
-  left: 60%;
-}
-
-/* Circle 4 */
-.circle4 {
-  width: 50px;
-  height: 50px;
-  bottom: 10%;
-  left: 5%;
-}
-
-/* Circle 5 */
-.circle5 {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 163, 228, 0.2);
   top: 10%;
-  left: 65%;
+  left: 15%;
+  animation-duration: 10s;
 }
 
+.circle2 {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(0, 163, 228, 0.2);
+  top: 25%;
+  right: 20%;
+  animation-duration: 12s;
+}
+
+.circle3 {
+  width: 80px;
+  height: 80px;
+  background-color: rgba(0, 163, 228, 0.2);
+  bottom: 15%;
+  left: 10%;
+  animation-duration: 18s;
+}
+
+.circle4 {
+  width: 120px;
+  height: 120px;
+  background-color: rgba(0, 163, 228, 0.2);
+  bottom: 10%;
+  right: 25%;
+  animation-duration: 14s;
+}
+
+.circle5 {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 163, 228, 0.2);
+  top: 5%;
+  right: 5%;
+  animation-duration: 16s;
+}
+
+
+@keyframes moveCircle {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(30px, -40px);
+  }
+  50% {
+    transform: translate(-20px, 30px);
+  }
+  75% {
+    transform: translate(40px, 20px);
+  }
+}
+
+
+.circle:hover {
+  box-shadow: 0 0 20px rgba(0, 163, 228, 0.8), 0 0 30px rgba(0, 163, 228, 0.6);
+}
 @media (max-width: 910px) {
   .herosection1 {
     display: flex;
@@ -265,35 +288,81 @@
     border-radius: 19px;
   }
 
-  /* // new */
+ 
 
 
 
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.8;
+    animation: moveCircle 15s infinite ease-in-out;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 163, 228, 0.6), 0 0 20px rgba(0, 163, 228, 0.4);
+  }
+  
   .circle1 {
-    width: 60px;
-    height: 60px;
-    top: 10px;
-    left: 5%;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 163, 228, 0.2);
+    top: 10%;
+    left: 15%;
+    animation-duration: 10s;
   }
-
+  
   .circle2 {
-    width: 80px;
-    height: 80px;
-    bottom: 30px;
-    right: 10%;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 163, 228, 0.2);
+    top: 27%;
+    right: 25%;
+    animation-duration: 12s;
   }
-
+  
   .circle3 {
     width: 50px;
     height: 50px;
-    top: 70%;
-    left: 50%;
-  }
-
-  .circle4 {
-    width: 70px;
-    height: 70px;
-    bottom: 5%;
+    background-color: rgba(0, 163, 228, 0.2);
+    bottom: 15%;
     left: 10%;
+    animation-duration: 18s;
+  }
+  
+  .circle4 {
+    width: 120px;
+    height: 120px;
+    background-color: rgba(0, 163, 228, 0.2);
+    bottom: 10%;
+    right: 25%;
+    animation-duration: 14s;
+  }
+  
+  .circle5 {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 163, 228, 0.2);
+    top: 5%;
+    right: 5%;
+    animation-duration: 16s;
+  }
+  
+  @keyframes moveCircle {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(30px, -40px);
+    }
+    50% {
+      transform: translate(-20px, 30px);
+    }
+    75% {
+      transform: translate(40px, 20px);
+    }
+  }
+  
+
+  .circle:hover {
+    box-shadow: 0 0 20px rgba(0, 163, 228, 0.8), 0 0 30px rgba(0, 163, 228, 0.6);
   }
 }
