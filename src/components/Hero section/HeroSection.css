@@ -1,0 +1,299 @@
+.herosection1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  padding-right: 0px;
+
+  background-color: ffffff;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  margin-left: 80px;
+  margin-right: 141px;
+}
+
+.herosection1-content {
+  font-family: DM Sans;
+  max-width: 456px;
+  max-height: 264px;
+  z-index: 2;
+}
+
+.herosection1-content h1 {
+  color: #07969e;
+  font-size: 48px;
+  font-family: Tomato Grotesk;
+  /* border: 3px solid red; */
+}
+
+.herosection1-content p {
+  color: #333;
+  font-size: 18px;
+}
+
+.app-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.app-buttons .app-btn {
+  /* border: 3px solid red; */
+  margin-right: 10px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  /* gap: "5px"; */
+  align-items: center;
+  border-radius: 10px;
+  Width: 144px;
+  Height: 48px;
+}
+
+.app-buttons .app-btn span {
+  font-size: xx-large;
+}
+
+.app-buttons .app-btn p {
+  color: white;
+}
+
+.app-buttons .app-btn p span {
+  color: white;
+  font-size: small;
+}
+
+/* .app-buttons  a{
+    
+  } */
+
+.herosection1-image {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  z-index: 2;
+
+  padding: 13px;
+  width: 226.46px;
+  height: 433px;
+  background-color: white;
+  border-radius: 19px;
+}
+
+.herosection1-image img {
+  max-width: 194px;
+  /* max-width: 100%; */
+  border-radius: 20px;
+}
+
+
+.herosection1-content h1 {
+  color: #07969E;
+  font-size: 48px;
+}
+
+.herosection1-content p {
+  color: #333;
+  font-size: 18px;
+}
+
+/* // new */
+
+
+/* Styles for circles in the background */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #a0dde2;
+  opacity: 0.6;
+  z-index: 1;
+
+}
+
+/* Circle 1 */
+.circle1 {
+  width: 32px;
+  height: 32px;
+  top: 20px;
+  left: 10%;
+}
+
+/* Circle 2 */
+.circle2 {
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  right: 20%;
+}
+
+/* Circle 3 */
+.circle3 {
+  width: 32px;
+  height: 32px;
+  top: 60%;
+  left: 60%;
+}
+
+/* Circle 4 */
+.circle4 {
+  width: 50px;
+  height: 50px;
+  bottom: 10%;
+  left: 5%;
+}
+
+/* Circle 5 */
+.circle5 {
+  width: 50px;
+  height: 50px;
+  top: 10%;
+  left: 65%;
+}
+
+@media (max-width: 910px) {
+  .herosection1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0px;
+    align-items: center;
+    padding: 0px;
+    background-color: ffffff;
+    align-items: center;
+    position: relative;
+    /* Allows positioning of circles within the herosection1 */
+    overflow: hidden;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 74px;
+    margin-left: 8px;
+    margin-right: 0px;
+    max-height: none;
+  }
+
+  .herosection1-content {
+    max-width: none;
+    min-width: none;
+    margin: 0px 8px;
+    /* width: 100%; */
+    font-family: DM Sans;
+    z-index: 2;
+    /* Make sure the content appears in front of the circles */
+  }
+
+  .herosection1-content h1 {
+    color: #07969E;
+    font-weight: 600px;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .herosection1-content p {
+    margin-top: 8px;
+    color: #333;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .app-buttons {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    /* border: 3px solid red; */
+    margin-top: 16px;
+    margin-bottom: 60.21;
+  }
+
+
+  .app-buttons .app-btn {
+    margin-right: 0px;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 4px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    
+    /* gap: "460px"; */
+    align-items: center;
+    /* align-content: center; */
+    border-radius: 10px;
+    /* width: fit-content; */
+    Height: none
+  }
+
+  .app-buttons .app-btn span {
+    font-size: xx-large;
+  }
+
+  .app-buttons .app-btn p {
+    align-self: end;
+    color: white;
+  }
+
+  .app-buttons .app-btn p span {
+    color: white;
+    font-size: 13px;
+    font-family: Tomato Grotesk;
+    font-weight: 400px;
+    line-height: 16px;
+  }
+
+
+
+  .herosection1-image {
+    margin-top: 50px;
+    z-index: 2;
+    padding: 13px;
+    width: 194px;
+    background-color: white;
+    border-radius: 19px;
+    margin-bottom: 0px;
+    width: 194px;
+    height: none;
+
+  }
+
+  .herosection1-image img {
+    max-width: 100%;
+    border-radius: 19px;
+  }
+
+  /* // new */
+
+
+
+  .circle1 {
+    width: 60px;
+    height: 60px;
+    top: 10px;
+    left: 5%;
+  }
+
+  .circle2 {
+    width: 80px;
+    height: 80px;
+    bottom: 30px;
+    right: 10%;
+  }
+
+  .circle3 {
+    width: 50px;
+    height: 50px;
+    top: 70%;
+    left: 50%;
+  }
+
+  .circle4 {
+    width: 70px;
+    height: 70px;
+    bottom: 5%;
+    left: 10%;
+  }
+}

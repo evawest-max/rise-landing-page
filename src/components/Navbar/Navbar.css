@@ -1,0 +1,203 @@
+/* General navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+    /* border: 3px solid red; */
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  
+  .navbar-logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #07969E;
+    text-decoration: none;
+  }
+  
+  /* Links styling */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Mobile-specific styles */
+  @media (max-width: 868px) {
+    .navbar {
+      margin-left: 0px;
+      margin-right: 0px;
+      
+    }
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #fff;
+      flex-direction: column;
+      gap: 15px;
+      width: 200px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      transform: translateX(100%); 
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    /* Display links when the menu is active (opened) */
+    .nav-links.active {
+      transform: translateX(0);
+    }
+  
+    .nav-links li a {
+      font-size: 18px;
+      color: #07969E;
+    }
+  
+    /* Hide the nav links for mobile by default */
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    /* Show the hamburger menu icon */
+    .menu-icon {
+      display: block;
+    }
+  }
+  
+  /* Desktop-specific styles */
+  @media (min-width: 868px) {
+    .nav-links {
+      display: flex;
+    }
+  
+    /* Hide the hamburger icon on desktop */
+    .menu-icon {
+      display: none;
+    }
+  }
+  
+  /* Hamburger menu icon styling */
+  .menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon {
+    font-size: 28px;
+    color: #07969E;
+  }
+  
+  .close-icon {
+    font-size: 28px;
+    color: #07969E;
+  }
+  
+
+
+  /* General navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .navbar-logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #07969E;
+    text-decoration: none;
+  }
+  
+  /* Links styling */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #07969E;
+    font-size: 16px;
+  }
+  
+  /* Hide links for mobile by default */
+  @media (max-width: 868px) {
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #fff;
+      flex-direction: column;
+      gap: 15px;
+      width: 200px;
+      padding: 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+      transform: translateX(100%);
+    }
+  
+    /* Display links when menu is open */
+    .nav-links.active {
+      transform: translateX(0);
+    }
+  
+    .nav-links li a {
+      font-size: 18px;
+      color: #07969E;
+    }
+  }
+  
+  /* Hamburger menu icon styling */
+  .menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon {
+    font-size: 28px;
+    color: #07969E;
+  }
+  
+  .close-icon {
+    font-size: 28px;
+    color: #07969E;
+  }
+  
+  /* Show the menu icon for mobile screens */
+  @media (max-width: 868px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    /* Hide the full nav links on mobile by default */
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  }
+
+  

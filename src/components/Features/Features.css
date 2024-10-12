@@ -1,0 +1,111 @@
+/* Features Section */
+.feature-desktop{
+    display: block;
+}
+.feature-mobile{
+    display: none;
+}
+.features {
+    /* padding: 50px; */
+    padding-bottom: 90px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 3px solid red; */
+}
+
+.features .feature-block {
+    /* margin-bottom: 30px; */
+}
+
+.feature-container {
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid red; */
+}
+
+.features h2 {
+    color: 2d2d2d;
+    Font:Tomato Grotesk;
+    font-weight: 600px;
+    font-size: 32px;
+    line-height: 28.8px;
+}
+
+.features p {
+    color: #333;
+    Font:DM Sans;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.features .cta-btn {
+    color: #07969E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {  
+    /* Features Section */
+    .feature-desktop{
+        display: none;
+    }
+    .feature-mobile{
+        display: block;
+    }
+    .feature-container {
+        display: flex;
+        flex-direction: column;
+        /* border: 3px solid red; */
+    }
+
+    .feature-container img{
+        /* margin-left: 20%;
+        margin-right: 20%; */
+        margin: 15% 20%;
+    }
+     
+    .features {
+      padding: 20px;
+    }
+  
+    .features h2 {
+      font-size: 28px;
+      color: #2d2d2d;
+        Font:Tomato Grotesk;
+        font-weight: 600px;
+        font-size: 20px;
+        line-height: 18px;
+        text-align: center;
+    }
+  
+    .features p {
+      font-size: 16px;
+      color: #333;
+        Font:DM Sans;
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .features .cta-btn {
+        display: none;
+        color: #07969E;
+        text-decoration: none;
+        font-weight: bold;
+    }
+  }
+  
+  /* Responsive Styling for Larger Screens */
+  @media (min-width: 1200px) {
+    .features {
+      padding: 100px;
+    }
+
+  }
+  

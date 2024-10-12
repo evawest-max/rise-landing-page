@@ -1,0 +1,184 @@
+/* CommunitySection.css */
+.community-section {
+  text-align: center;
+  padding: 50px;
+  background-color: white;
+  color: #333;
+  display: flex;
+  align-items: center;
+  margin-bottom: 102px;
+}
+
+.community-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.community-section p {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #00987d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  width: 432px;
+  height: 386px;
+  margin: 0 auto;
+  /* border: 3px solid red; */
+}
+
+.image-container {
+  position: absolute;
+  width: 113px;
+  height: 113px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.top-image {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2
+}
+
+.left-image {
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  z-index: 2
+}
+
+.right-image {
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  z-index: 2
+}
+
+.bottom-image {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  z-index: 2
+}
+
+.diamond {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 260px;
+  height: 250px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border: 2px solid #00aabb; /* Adjust color as needed */
+  background-color: transparent;
+  z-index: 1;
+}
+
+.diamond::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #00aabb;
+  /* border: 3px solid red; */
+  transform: rotate(0deg);
+}
+.diamond2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  transform: translate(-50%, -50%) rotate(45deg);
+  border: 2px solid #00aabb; /* Adjust color as needed */
+  background-color: transparent;
+  z-index: 1;
+}
+
+.diamond2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #00aabb;
+  /* border: 3px solid red; */
+  transform: rotate(0deg);
+}
+
+
+@media (max-width: 1256px) {
+  .community-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding: 20px;
+    
+  }
+  .container {
+    position: relative;
+    width: 400px;
+    height: 386px;
+    margin: 0 auto;
+    /* border: 3px solid red; */
+    margin-bottom: 80px;
+  }
+
+  .community-section h2 {
+    font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600px;
+  font-size: 32px;
+  line-height: 28.8px;
+  text-align: center;
+  }
+
+  .community-section p {
+    font-size: 14px;
+    font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  }
+
+  /*  */
+  .cta-button {
+    background-color: #00987d;
+    color: white;
+    /* padding: 16px 10px; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 218px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    display: none;
+  }
+}
+

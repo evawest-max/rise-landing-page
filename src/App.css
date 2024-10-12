@@ -1,0 +1,24 @@
+.Apps-img{
+  display: none;
+  width: 20%;
+  /* border: 3px solid red; */
+}
+.support-text{
+  display: none;
+}
+
+@media (max-width: 868px) {
+  .Apps-img{
+    display: block;
+    width: 100%;
+    /* border: 3px solid red; */
+  }
+  .support-text{
+    display: block;
+    font-family: DM Sans;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 23.44px;
+    color: #7B8DA8;
+  }
+}

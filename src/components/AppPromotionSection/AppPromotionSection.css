@@ -1,0 +1,216 @@
+/* AppPromotionSection.css */
+.app-promotion-section {
+    text-align: left;
+    /* padding: 50px; */
+    background-color: #e5f7f7;
+    color: #333;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 100.12px;
+    border-radius: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow-y: hidden;
+}
+
+.app-promotion-section h2 {
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #07969E;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.text-2 {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.app-promotion-section-span{
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: DN Sans;
+    font-weight: 500px;
+    /* margin-bottom: 30px; */
+    text-align: left;
+}
+
+.app-btn2 {
+    margin-right: 0px;
+    background-color: #000;
+    color: #fff;
+    padding: 2px 3%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: "50px";
+    align-items: center;
+    border-radius: 10px;
+    Width: 144px;
+    Height: 48px
+    /* border: 3px solid red; */
+}
+
+.app-btn2-span {
+    font-size: x-large;
+    align-self: flex-start;
+    margin-top: 7px;
+    /* border: 3px solid red; */
+}
+
+
+
+.app-btn2 p span {
+    color: white;
+    font-size: 12px;
+    /* font-weight: 200px; */
+}
+
+/* .app-buttons2 {
+    display: flex;
+    gap: 12;
+    justify-content: center;
+    align-items: center;
+    } */
+    
+    .app-buttons2 {
+        display: flex;
+        /* border: 3px solid red; */
+        gap: 10px;
+        align-items: center;
+        margin-top: 30px;
+}
+
+.app-preview {
+    /* border: 3px solid red; */
+    margin-top: 30px;
+    margin-bottom: -20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 14.12px;
+}
+
+.app-preview img {
+    max-width: 200px;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .app-promotion-section {
+        background-color: #e5f7f7;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 20%;
+        height: 394px;
+        overflow-y: hidden;
+        max-width: 500px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .app-promotion-section h2 {
+        /* border: 3px solid red; */
+        font-size: 16px;
+        font-weight: 500px;
+        line-height: 24px;
+        margin-bottom: 20px;
+        text-align: center;
+        color: #07969E;
+
+    }
+
+    .app-promotion-section p {
+        max-width: 600px;
+        margin: 0 auto;
+        line-height: 24px;
+        font-size: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .app-buttons2 .app-btn2 {
+        margin-right: 0px;
+        background-color: #000;
+        color: #fff;
+        padding: 2px 3%;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        gap: "50px";
+        align-items: center;
+        border-radius: 10px;
+        /* border: 3px solid red; */
+    }
+
+    .app-buttons2 .app-btn2-span {
+        font-size: x-large;
+        align-self: flex-start;
+        margin-top: 7px;
+        /* border: 3px solid red; */
+    }
+
+    .app-buttons2 .app-btn2 p {
+        color: white;
+        /* border: 3px solid red; */
+        align-self: baseline;
+        font-size: small;
+    }
+
+    .app-buttons2 .app-btn2 p span {
+        color: white;
+        font-size: 12px;
+        /* font-weight: 200px; */
+    }
+
+    .app-buttons2 {
+        display: flex;
+        gap: 12;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app-buttons2 a {
+        Width: 144px;
+        Height: 48px
+    }
+
+    .app-preview {
+        position: relative;
+        /* border: 3px solid red; */
+        /* margin-top: 30px; */
+        text-align: center;
+        padding: 10px;
+        background-color: white;
+        border-radius: 20px;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 50%;
+        height: 100%;
+
+    }
+
+    .app-preview img {
+        max-width: 95%;
+        border-radius: 20px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-inline: auto;
+        width: fit-content;
+    }
+}

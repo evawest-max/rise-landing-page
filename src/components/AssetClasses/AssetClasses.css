@@ -1,0 +1,127 @@
+.asset-classes {
+    padding: 50px;
+    padding-top: 64px;
+    background-color: #fff;
+    /* margin-top: 44px; */
+}
+
+.asset-classes h2 {
+    font-size: 40px;
+    font-family: Tomato Grotesk;
+    font-weight: 600;
+    line-height: 48px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.asset-classes p {
+    /* border: 3px solid red; */
+    margin-top: 0px;
+    margin-bottom: 42px;
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.asset-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 46px;
+    margin-top: 0px;
+    /* border: 3px solid red; */
+}
+
+.asset-card {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    flex: 1;
+    margin: 10px;
+    /* min-width: 250px; */
+    min-height: 595px;
+    max-width: 300px;
+    padding-bottom: 31px;
+    margin-top: 24px;
+    border-radius: 5px;
+}
+
+.asset-card div {
+    position: relative;
+    height: 213px;
+    background: white;
+}
+
+.asset-card div section {
+    width: 100%;
+    height: 150px;
+    /* background-color: purple; */
+}
+
+.asset-card div img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 15px solid white;
+}
+
+.asset-card h3 {
+    font-size: 24px;
+    color: #4A5050;
+    font-size: 24px;
+    font-family: Tomato Grotesk;
+    line-height: 30px;
+    font-weight: 600px;
+    text-align: center;
+}
+
+.asset-card p {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    font-family: Tomato Grotesk;
+    line-height: 30px;
+    font-weight: 600px;
+    text-align: center;
+}
+
+.asset-card a {
+    display: flex;
+    justify-content: center;
+    color: #07969E;
+    text-decoration: none;
+    align-items: center;
+    margin-top: 70px;
+    
+}
+
+@media (max-width: 98px) {
+
+    /* Asset Classes Section */
+    .asset-classes {
+        padding: 20px;
+    }
+
+    .asset-classes h2 {
+        font-size: 28px;
+    }
+
+    .asset-classes p {
+        font-size: 16px;
+    }
+}
+
+/* Responsive Styling for Larger Screens */
+@media (min-width: 1200px) {
+
+    .asset-classes {
+        padding: 100px;
+    }
+}

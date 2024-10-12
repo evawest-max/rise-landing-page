@@ -1,0 +1,160 @@
+/* General body styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+
+/* Hero Section */
+/* .hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f5f5f5;
+  align-items: center;
+} */
+
+/* .circle1{
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #68abb8;
+  position: absolute;
+  z-index: 0;
+} */
+
+
+
+.hero-image img {
+  /* max-width: 400px; */
+  Width: 194.11px;
+  Height: 433.2px,
+}
+
+
+
+/* Asset Classes Section */
+.asset-classes {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.asset-classes h2 {
+  font-size: 36px;
+  color: #0072ce;
+  text-align: center;
+}
+
+.asset-classes p {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.asset-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  flex: 1;
+  margin: 10px;
+  min-width: 250px;
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #0072ce;
+}
+
+.card p {
+  font-size: 16px;
+  color: #333;
+}
+
+.card a {
+  color: #0072ce;
+  text-decoration: none;
+}
+
+/* Responsive Styling for Mobile Devices */
+@media (max-width: 768px) {
+  
+
+  /* Hero Section */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 36px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+  }
+
+  /* Features Section */
+  .features {
+    padding: 20px;
+  }
+
+  .features h2 {
+    font-size: 28px;
+  }
+
+  .features p {
+    font-size: 16px;
+  }
+
+  /* Asset Classes Section */
+  .asset-classes {
+    padding: 20px;
+  }
+
+  .asset-classes h2 {
+    font-size: 28px;
+  }
+
+  .asset-classes p {
+    font-size: 16px;
+  }
+
+  .asset-cards {
+    flex-direction: column;
+  }
+
+  .card {
+    min-width: 100%;
+  }
+}
+
+/* Responsive Styling for Larger Screens */
+@media (min-width: 1200px) {
+  .hero {
+    padding: 100px;
+  }
+
+  .features {
+    padding: 100px;
+  }
+
+  .asset-classes {
+    padding: 100px;
+  }
+}
