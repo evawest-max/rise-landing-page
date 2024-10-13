@@ -9,7 +9,7 @@ function HeroSection() {
     <section className="herosection1">
       <div className="herosection1-content">
         <h1>Dollar investments that help you grow</h1>
-        <p>We put your money in high quality assets that help you build wealth and achieve your financial goals.</p>
+        <p>We put your money in high quality assets that help you build wealth and achieve your financial goals..</p>
         <div className="app-buttons">
           <a href="#" className="app-btn">
             <span>
