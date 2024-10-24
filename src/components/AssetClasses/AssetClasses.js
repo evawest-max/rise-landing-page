@@ -1,6 +1,9 @@
 import React from 'react';
 import './AssetClasses.css';
 import { BsArrowRightShort } from "react-icons/bs";
+import asset1 from "./asset-image1.png"
+import asset2 from "./asset-image2.png"
+import asset3 from "./asset-image3.png"
 
 function AssetClasses() {
   return (
@@ -11,7 +14,7 @@ function AssetClasses() {
         <div className="asset-card">
           <div>
             <section style={{backgroundColor:"#fff4f0"}}></section>
-            <img src='https://s3-alpha-sig.figma.com/img/4d36/c0b3/be8e800c0a0733b7a1acc5827c9548d7?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bDRWwihuO65iOL9lp77L6BMUAouGxdEAVdgWTEEm4ae839ZQ9xmI~U1pf5~1X7mQxdNtsQSSJKzKi7S8ejnUHq-RmMIT87b2KuRV7TH4BDKvA1-uD7-Ogt7ff4Q0D9Lb23wTtawJ-8NjI~UaYhkgzP7gg7cOkwMd1PqXXajHSvw~pbdwRqa89mFd19qfKUsFvBhRnXsw6MBFiOBDnBFCwy5z8w8QlLOLNgdrOAKN9iP6pY2vbdcz6QfkW-2qDhsh7eWVuovuI7U5zLio0c5qOa6R2Q-RVQGbcYOoMT0D9EEzZB1aKnCpkCqE4jOzxXhWJ2BBLW6BB5ZJ7fo6UZq6-g__' alt='Asset image' />
+            <img src={asset1} alt='Asset image1'/>
           </div>
           <h3>Stocks</h3>
           <div >
@@ -26,7 +29,7 @@ function AssetClasses() {
         <div className="asset-card">
           <div>
             <section style={{backgroundColor:"#f6f2ff"}}></section>
-            <img src='https://s3-alpha-sig.figma.com/img/dc3a/7a08/651d08989125046b2fa2479b6fbe2968?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kiLS4VuEToqJEW3~H0ie2T1yQoaRSaOBd291HMeULPCKERv8aO49nrs4OgsKPP3Lhkox3ZtmdvH-adYyl0yHnyeC0rSrpDm6DEETRS9RWU5QONdTHdnUxasp6GvAgtJUFiQxd8GRfryfpIrfDytVLbOiixG6tQJMKakRCqKrTQbWEPF5trpEBUcSl8Zk3KsZnfqeLC~6UdyDyXwisSp56mu7tcCkI6rLSAoWrgtK3uUv5SJ5Z9anyrVrwT3bONsBSJDCRhsfgeYJIkN3PEKl-p63DgU5LEnn3tfV8gW-Lihqwf7jUT56o96g98k9Wp6magNs4IRDlMPu4kJbaPOfjA__' alt='Asset image' />
+            <img src={asset2} alt='Asset image2'/>
           </div>
           <h3>Real Estate</h3>
           <div>
@@ -41,7 +44,7 @@ function AssetClasses() {
         <div className="asset-card">
           <div>
             <section style={{backgroundColor:"#ecfefe"}}></section>
-            <img src='https://s3-alpha-sig.figma.com/img/2bb6/944c/a3abd2ab70d927ae9548a65b6e98337a?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bjcKDHC7NscKlYvh5R031YoIW3UxOXOLu3EqvsvQN6a8cMck1uxNQOeJvlZBjcRgt1IQCRHYmwX5wvvKD26k~23wqfE8WBaWxbfSMln~FLollQNbNmalcLoDjdpYp3uuaWudMIiPrWzmX00WGc9hzdHJjufZ0lEmezQN2JDvJVJFDt9wneFRjfEuLRgVZttvJHgTQrWw~bzCFa3HOrQxlWTF8ult80sCyRCr4hb22b8pCmy1xWMX5r2Jr9NZ0T9ksNTHQJ8nyE6RSQ~3HDWrBpYLHi0INvevL6iIg9CKul-gZxEe9-3HihJT07x0ForucJISg41k9jhYKHEfUGngnw__' alt='Asset image' />
+            <img src={asset3} alt='Asset image3' />
           </div>
           <h3>Fixed Income</h3>
           <div>
